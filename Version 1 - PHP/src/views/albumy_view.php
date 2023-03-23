@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Jazzman's World</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, inital-scale=0.9" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <header>
+            <a href="/"><h1>Jazzman's World</h1></a>
+        </header>
+
+        <div id="left">
+            <div id="content">
+
+                <section>
+                    <div class="ramkaImg" style="flex: 1;">
+                        <img src="img/incr_jazz.jpg" alt="Music Album Cover" />
+                    </div>
+                    <div class="ramkaArticle" style="flex: 3;">
+                        <article>
+                                <a href="https://www.youtube.com/watch?v=BIViaXJBuzY&list=OLAK5uy_lGVUZj3fwx69AkIs7lNHrP7vOQPtN7SQc" target="_blank"><h3>The Incredible Jazz Guitar - Wes Montgomery</h3></a>
+                                <br />
+                                <ol>
+                                    <li>"Airegin" – 4:26</li>
+                                    <li>"D-Natural Blues" – 5:23</li>
+                                    <li>"Polka Dots and Moonbeams" – 4:44</li>
+                                    <li>"Four on Six" – 6:15</li>
+                                    <li>"West Coast Blues" – 7:26</li>
+                                    <li>"In Your Own Sweet Way" – 4:53</li>
+                                    <li>"Mr. Walker (Renie)" – 4:33</li>
+                                    <li>"Gone With the Wind" – 6:24</li>
+                                </ol>
+                        </article>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="ramkaArticle" style="flex: 5;">
+                        <article>
+                                <a href="https://www.youtube.com/watch?v=E5_EQdTZbSs&list=OLAK5uy_lopkETo2dPxenze1gRUm7OALZ5yZ20M2g" target="_blank"><h3>Virtuoso - Joe Pass</h3></a>
+                                <ol>
+                                    <li>"Night and Day" – 3:32</li>
+                                    <li>"Stella by Starlight" – 5:10</li>
+                                    <li>"Here's That Rainy Day" – 3:36</li>
+                                    <li>"My Old Flame" – 5:17</li>
+                                    <li>"How High the Moon" – 4:59</li>
+                                    <li>"Cherokee" – 3:37</li>
+                                    <li>"Sweet Lorraine" – 4:09</li>
+                                    <li>"Have You Met Miss Jones?" – 4:42</li>
+                                    <li>"'Round Midnight" – 3:38</li>
+                                    <li>"All the Things You Are" – 4:01</li>
+                                    <li>"Blues for Alican" – 5:29</li>
+                                    <li>"The Song Is You" – 4:34</li>
+                                </ol>
+                        </article>
+                    </div>
+                    <div class="ramkaImg" style="flex: 2;">
+                        <img src="img/virtuoso.jpg" alt="Music Album Cover" />
+                    </div>
+                </section>
+
+                <section>
+                    <div class="ramkaImg" style="flex: 1;">
+                        <img src="img/undercurrent.jpg" alt="Music Album Cover" />
+                    </div>
+                    <div class="ramkaArticle" style="flex: 4.5;">
+                        <article>
+                                <a href="https://www.youtube.com/watch?v=UJHXLAdjlU8&list=OLAK5uy_mqzbMI5RK2l7Plwc5Xi61pkvsZjLgwWtc" target="_blank"><h3>Undercurrent - Bill Evans & Jim Hall</h3></a>
+                                <ol>
+                                    <li>"My Funny Valentine" – 5:21</li>
+                                    <li>"I Hear a Rhapsody" – 4:36</li>
+                                    <li>"Dream Gypsy" – 4:33</li>
+                                    <li>"Romain" – 5:19</li>
+                                    <li>"Skating in Central Park" – 5:19</li>
+                                    <li>"Darn That Dream" – 5:04</li>
+                                </ol>
+                        </article>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="ramkaArticle" style="flex: 2.06;">
+                        <article>
+                                <a href="https://www.youtube.com/watch?v=1p1sPj8oSZY&list=OLAK5uy_k0TFfTaWOjuxcbD2-IGy2bJCZGcz2h7Wg" target="_blank"><h3>Fitzgerald & Pass... Again - Ella Fitzgerald & Joe Pass</h3></a>
+                                <ol>
+                                    <li>"I Ain't Got Nothin' But the Blues" – 4:04</li>
+                                    <li>"'Tis Autumn" – 5:05</li>
+                                    <li>"My Old Flame" – 4:49</li>
+                                    <li>"That Old Feeling" – 2:45</li>
+                                    <li>"Rain" – 2:22</li>
+                                    <li>"I Didn't Know About You" – 4:41</li>
+                                    <li>"You Took Advantage of Me" – 3:35</li>
+                                    <li>"I've Got the World on a String" – 4:07</li>
+                                    <li>"All Too Soon" – 4:24</li>
+                                    <li>"The One I Love (Belongs to Somebody Else)" – 4:02</li>
+                                    <li>"(In My) Solitude" – 3:43</li>
+                                    <li>"Nature Boy" – 2:24</li>
+                                    <li>"Tennessee Waltz" – 3:48</li>
+                                    <li>"One Note Samba" – 5:00</li>
+                                </ol>
+                        </article>
+                    </div>
+                    <div class="ramkaImg" style="flex: 1;">
+                        <img src="img/fitz_pass.png" alt="Music Album Cover" />
+                    </div>
+                </section>
+
+                <section>
+                    <div class="ramkaImg" style="flex: 1;">
+                        <img src="img/mid_blue.png" alt="Music Album Cover" />
+                    </div>
+                    <div class="ramkaArticle" style="flex: 3.2;">
+                        <article>
+                                <a href="https://www.youtube.com/watch?v=OEsj8aWC0MM&list=OLAK5uy_ncJ5UUOTHhNaeQU91dhZhDzhahMSCaua4" target="_blank"><h3>Midnight Blue - Kenny Burrell</h3></a>
+                                <ol>
+                                    <li>"Chitlins con Carne" – 5:30</li>
+                                    <li>"Mule" – 6:56</li>
+                                    <li>"Soul Lament" – 2:43</li>
+                                    <li>"Midnight Blue" – 4:02</li>
+                                    <li>"Wavy Gravy" – 5:47</li>
+                                    <li>"Gee, Baby, Ain't I Good to You" – 4:25</li>
+                                    <li>"Saturday Night Blues" – 6:16</li>
+                                    <li>"Kenny's Sound" – 4:43 (Bonus track on CD reissue)</li>
+                                    <li>"K Twist" – 3:36 (Bonus track on CD reissue)</li>
+                                </ol>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="aside">
+                <nav>
+                    <div class="menu">
+                        <p class="menuTitle"><b>Menu</b></p>
+                        <a href="instrumenty">
+                            <div class="navMenuPos">
+                                Typy instrumentów
+                            </div>
+                        </a>
+
+                        <hr />
+
+                        <a href="albumy">
+                            <div class="navMenuPos" id="navActive">
+                                Albumy, których powinien posłuchać każdy
+                            </div>
+                        </a>
+
+                        <hr />
+
+                        <a href="kontakt">
+                            <div class="navMenuPos">
+                                Napisz do mnie
+                            </div>
+                        </a>
+
+                        <hr />
+
+                        <a href="galeria">
+                            <div class="navMenuPos">
+                                Galeria
+                            </div>
+                        </a>
+
+                        <hr />
+                        
+                        <a href="own_gallery">
+                            <div class="navMenuPos">
+                                Zapamiętane obrazy
+                            </div>
+                        </a>
+
+<hr />
+
+<a href="search">
+    <div class="navMenuPos">
+        Przeszukaj galerię
+    </div>
+</a>
+
+                        <hr />
+
+                        <?php if(isset($_SESSION['userID'])):?>
+                        <a href="logout">
+                            <div class="navMenuPos">
+                                Wyloguj się
+                            </div>
+                        </a>
+                        <?php else:?>
+                            <a href="login">
+                            <div class="navMenuPos">
+                                Zaloguj się
+                            </div>
+                        </a>
+                        <?php endif?>
+
+                        <div id="menuOnPhone">
+                            <hr />
+
+                            <button id="phoneDDButton">
+                                Legendy gitary jazzowej
+                            </button>
+
+                            <div id="phoneDDContent">
+                                <hr />
+                                <a href="pass">
+                                    <div class="navMenuPos">
+                                        Joe Pass
+                                    </div>
+                                </a>
+
+                                <hr />
+
+                                <a href="hall">
+                                    <div class="navMenuPos">
+                                        Jim Hall
+                                    </div>
+                                </a>
+
+                                <hr />
+
+                                <a href="wes">
+                                    <div class="navMenuPos">
+                                        Wes Montgomery
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <nav>
+                    <div class="container">
+
+                        <div class="navMenuPosDD">
+                            <div class="navMenuPos">
+                                Legendy gitary jazzowej
+                            </div>
+                        </div>
+
+                        <div id="slide">
+                            <a href="pass">
+                                <img class="menuPic" src="img/pass.jpg" alt="Joe Pass"/>
+                            </a>
+
+                            <a href="hall">
+                                <img class="menuPic" src="img/hall.jpg" alt="Jim Hall"/>
+                            </a>
+
+                            <a href="wes">
+                                <img class="menuPic" src="img/wes.jpg" alt="Wes Montgomery"/>
+                            </a>
+                        </div>
+
+                        <div class="gridSpace">
+                            <div class="gallery">
+                                <p class="menuTitle"><b>Standardy tygodnia</b></p>
+
+                                <div>
+                                    <a href="img/s1.jpg" target="_blank"><img src="img/s1.jpg" alt="Music Notes" /></a>
+                                    When Sunny Gets Blue
+                                </div>
+                                <div>
+                                    <a href="img/s2.jpg" target="_blank"><img src="img/s2.jpg" alt="Music Notes" /></a>
+                                    <br />Autumn Leaves
+                                </div>
+                                <div>
+                                    <a href="img/s3.jpg" target="_blank"><img src="img/s3.jpg" alt="Music Notes" /></a>
+                                    <br />Invitation
+                                </div>
+                                <div>
+                                    <a href="img/s4.png" target="_blank"><img src="img/s4.png" alt="Music Notes" /></a>
+                                    <br />Alone Together
+                                </div>
+                                <div>
+                                    <a href="img/s5.png" target="_blank"><img src="img/s5.png" alt="Music Notes" /></a>
+                                    <br />The Girl From Ipanema
+                                </div>
+                                <div>
+                                    <a href="img/s6.jpg" target="_blank"><img src="img/s6.jpg" alt="Music Notes" /></a>
+                                    <br />Misty
+                                </div>
+                                <div>
+                                    <a href="img/s7.png" target="_blank"><img src="img/s7.png" alt="Music Notes" /></a>
+                                    <br />Have You Met Miss Jones
+                                </div>
+                                <div>
+                                    <a href="img/s8.png" target="_blank"><img src="img/s8.png" alt="Music Notes" /></a>
+                                    <br />On The Sunny Side Of The Street
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        <section id="mobileGallery">
+            <p class="menuTitle"><b>Standardy tygodnia</b></p>
+            <div id="pics">
+                <div>
+                    <a href="img/s1.jpg" target="_blank"><img src="img/s1.jpg" alt="Music Notes" /></a>
+                    <br />When Sunny Gets Blue
+                </div>
+                <div>
+                    <a href="img/s2.jpg" target="_blank"><img src="img/s2.jpg" alt="Music Notes" /></a>
+                    <br />Autumn Leaves
+                </div>
+                <div>
+                    <a href="img/s3.jpg" target="_blank"><img src="img/s3.jpg" alt="Music Notes" /></a>
+                    <br />Invitation
+                </div>
+                <div>
+                    <a href="img/s4.png" target="_blank"><img src="img/s4.png" alt="Music Notes" /></a>
+                    <br />Alone Together
+                </div>
+                <div>
+                    <a href="img/s5.png" target="_blank"><img src="img/s5.png" alt="Music Notes" /></a>
+                    <br />The Girl From Ipanema
+                </div>
+                <div>
+                    <a href="img/s6.jpg" target="_blank"><img src="img/s6.jpg" alt="Music Notes" /></a>
+                    <br />Misty
+                </div>
+                <div>
+                    <a href="img/s7.png" target="_blank"><img src="img/s7.png" alt="Music Notes" /></a>
+                    <br />Have You Mey Miss Jones
+                </div>
+                <div>
+                    <a href="img/s8.png" target="_blank"><img src="img/s8.png" alt="Music Notes" /></a>
+                    <br />On The Sunny Side Of The Street
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <svg style="width: 21px; height: 21px ; position: relative; top: 3px;">
+                <polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" style="fill:white; stroke: white; stroke-width: 1;" />
+            </svg>
+
+            <span id="tutaj"></span><b>Jan Kaczerski, grupa 1
+
+            <svg style="width: 21px; height: 21px; position: relative; top: 3px;">
+                <polygon points="10,1 4,19.8 19,7.8 1,7.8 16,19.8" style="fill:white; stroke: white; stroke-width: 1;" />
+            </svg>
+
+            <br /><a href="#">Wróć na górę</a></b>
+
+        </footer>
+    </div>
+</body>
+
+</html>
