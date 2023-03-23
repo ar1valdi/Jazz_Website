@@ -1,0 +1,480 @@
+body{
+    margin: 0px; 
+}
+
+#wrapper {
+    background-image: url("img/tlo2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Bookman Old Style';
+    overflow-x: hidden;
+}
+
+#wrapper a:hover{
+    color: darkgrey;
+}
+
+header > a > h1 {
+    margin: 15px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+    clear: both;
+    padding-top: 17px;
+}
+
+footer a:hover{
+    color: lightgrey;
+}
+
+p{
+    margin: 5px;
+}
+
+#left {
+    float: left;
+    width: calc(100% - 300px);
+}
+
+#search_center{
+    display:flex; 
+    align-items: center; 
+    flex-direction:column; 
+    row-gap:5px;
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.77);
+    border-radius: 7px;
+    padding: 20px;
+    margin: auto;
+    font-size: 17px;
+    width: calc(100% - 40px);
+    max-width: 1200px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+article {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+section h3{
+    margin: 7px;
+    text-align:center;
+}
+
+section .ramkaImg{
+    background-color: #101010;
+    padding: 10px;
+    border-radius: 4px;
+    color:white;
+    text-align: center;
+}
+
+.ramkaArticle{
+    background-color: #101010;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.ramkaImg{
+    width: 100%;
+}
+
+.ramkaImg > img{
+    max-width: 100%;
+}
+
+.ramkaImg > a > img{
+    max-width: 100%;
+}
+
+hr {
+    margin: 0px;
+}
+
+.aside{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    float: right;
+}
+
+nav {
+    color: black;
+    padding: 0px 10px 10px 10px;
+}
+
+#navActive {
+    background-color: rgb(130, 130, 130, 0.75);
+    color: white;
+}
+
+#alsoActive {
+    background-color: rgb(130, 130, 130, 0.75);
+    color: white;
+}
+
+#navActive:hover {
+    background-color: antiquewhite;
+}
+
+.gridSpace {
+    height: fit-content;
+    grid-area: gallery;
+    transition: 0.4s transform ease-in-out;
+    transform: translate(0);
+}
+
+.gallery {
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0, 0.77);
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px 15px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "galTitle galTitle"
+                         "galLeft galRight";
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+}
+
+.menuTitle{
+    margin: 9px;
+    font-size: 20px;
+    grid-area: galTitle;
+    text-align:center;
+    color: white;
+}
+
+.gallery > div {
+    max-width: 110px;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery > div > a > img{
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 90%;
+    transition: 0.2s opacity;
+}
+
+.gallery > div > a > img:hover {
+    opacity: 100%;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0, 0.77);
+    border-radius: 4px;
+    padding: 5px 20px 15px 20px;
+    color: white;
+}
+
+.menu::first-letter, .gallery > p::first-letter{
+    color: #909090;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "button nothing"
+                         "gallery pics";
+}
+
+#slide {
+    transform: translate(200%);
+    background-color: rgb(0, 0, 0, 0.77);
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.4s transform ease-in-out;
+    grid-area: pics;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgba(150,150,150,0.77);
+    }
+
+    100% {
+        background-color: rgba(0,0,0,0.77);
+    }
+}
+
+.menuPic {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 70%;
+    transition: 0.2s opacity;
+}
+
+.menuPic:hover {
+    opacity: 100%;
+}
+
+.navMenuPosDD {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(0, 0, 0, 0.77);
+    border-radius: 4px;
+    grid-area: button;
+    cursor: default;
+}
+
+#navActive:hover{
+    color: black;
+}
+
+.navMenuPosDD:hover ~ #slide {
+    transform: translate(-100%);
+    animation-name: colorChange;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+}
+
+.navMenuPosDD:hover > .navMenuPos {
+    background-color: antiquewhite;
+}
+    
+.navMenuPosDD:hover ~ .gridSpace {
+    transform: translate(300%);
+}
+
+#slide:hover {
+    transform: translate(-100%);
+}
+
+#slide:hover ~ .gridSpace {
+    transform: translate(300%);
+}
+
+.navMenuPos{
+    text-align: center;
+    color: black;
+    padding: 5px;
+    background-color: #d3d3d3bc;
+    border-radius: 3px;
+}
+
+.navMenuPos:hover {
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menuOnPhone
+{
+    display: none;
+}
+
+#phoneDDButton {
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    color: black;
+    padding: 5px;
+    background-color: #d3d3d3bc;
+    border-radius: 3px;
+    border: 0px;
+    width: 100%;
+    cursor:pointer;
+}
+
+#phoneDDButton:hover{
+    background-color: antiquewhite;
+}
+
+#phoneDDContent{
+    display: none;
+}
+
+#phoneDDButton:focus {
+    background-color: rgb(130, 130, 130, 0.75);
+    color: white;
+}
+
+#phoneDDButton:focus ~ #phoneDDContent {
+    display: block;
+}
+
+#mobileGallery{
+    display: none;
+}
+
+#msg {
+    width: 95%;
+    height: 85%
+}
+
+table #title{
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    margin: auto;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+@media (max-width: 900px){
+    body{
+        font-size: 15px;
+    }
+
+    #wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40px auto auto auto 77px;
+        grid-row-gap: 20px;
+        grid-template-areas: 
+            "header"
+            "menu"
+            "content"
+            "mobileGallery"
+            "footer";
+    }
+
+    #left{
+        clear: both;
+        grid-area: content;
+        width: 100%;
+    }
+
+    section{
+        font-size: 0.7em;
+    }
+
+    #content{
+        border-radius: 0px;
+        padding-bottom: 0px;
+    }
+
+    .container{
+        display: none;
+    }
+
+    header{
+        grid-area: header;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    #menuOnPhone{
+        display: unset;
+    }
+
+    #phoneDDContent:hover{
+        display: block;
+    }
+
+    #menu{
+        grid-area: menu;
+        max-width: 100%;
+    }
+
+    .aside{
+        width: auto;
+    }
+
+    #mobileGallery {
+        display: unset;
+        font-size: 10px;
+        background-color: rgba(0, 0, 0, 0.50);
+        margin: 0px;
+        padding-top: 0px;
+    }
+
+    #pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #pics div{
+        margin: 1%;
+        max-width: 20%;
+        color: white;
+        text-align: center;
+    }
+
+    #mobileGallery img{
+        max-width: 100%;
+        opacity: 90%;
+    }
+
+    #mobileGallery img:hover {
+        opacity: 100%;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    #msg{
+        height: 4em;
+    }
+}
+
+@media(max-width: 1200px)
+{
+    section{
+        flex-direction: column;
+    }
+
+    .ramkaImg {
+        order: 2;
+        width: 100%;
+    }
+
+    .ramkaImg > img {
+        width: 100%;
+    }
+
+    .ramkaImg > a > img {
+        width: 100%;
+    }
+
+    .ramkaArticle {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1980px){
+    #content{
+        position: relative;
+        left: 170px;
+    }
+}
