@@ -1,6 +1,6 @@
-# My_Hobby_Web_Page
+# Jazz Website (PHP)
 
-Site wrtitten in PHP about my hobby (articles are copied from wikipedia). It includes various mechanismes such as:  
+Site about jazz wrtitten in PHP (articles are copied from wikipedia). It includes various mechanismes such as:  
 
 
 ## PHP
