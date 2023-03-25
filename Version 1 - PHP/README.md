@@ -12,8 +12,8 @@ It includes various mechanismes such as:
 * creating miniatures
 * photo gallery with paging
 * MongoDB database
-* users register and logging engine
-* session mechanism
+* user registration and logging
+* session mechanism (works on the same principle as shopping engine)
 * public and private (for user uploding them only) photos
 * AJAX mechanism (search engine)
 
