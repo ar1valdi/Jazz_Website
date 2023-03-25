@@ -1,6 +1,9 @@
 # Jazz Website (PHP)
 
-Site about jazz wrtitten in PHP (articles are copied from wikipedia). It includes various mechanismes such as:  
+
+Site about jazz wrtitten in PHP (articles are copied from wikipedia).  
+PHP machine stands on Apache server on Debian virtual machine  
+It includes various mechanismes such as:  
 
 
 ## PHP
